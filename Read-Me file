@@ -1,0 +1,39 @@
+Web-Connect
+
+This project enables users to interact with any website through a chatbot interface. By appending a website URL to http://localhost:3005/, users can access a personalized chatbot for that specific site. For example:
+
+http://localhost:3005/https://en.wikipedia.org/wiki/Virat_Kohli
+
+The chatbot leverages natural language processing (NLP) and content extraction systems to provide seamless, dynamic question answering tailored to the webpage content. Backend services use Upstash Redis for efficient data storage, ensuring fast and reliable interactions.
+
+How It Works:
+
+Append the URL of a website after http://localhost:3005/ to get started.
+The chatbot uses a combination of NLP and content extraction to retrieve and process webpage information.
+Users can ask questions, and the bot responds based on the content available on the specified webpage.
+Key Features:
+
+URL-based chatbot interactions for any public webpage.
+Seamless integration of content extraction and conversational AI.
+Dynamic question answering tailored to the provided webpage.
+Backend storage using Upstash Redis for efficient data handling.
+A simple interface for direct website interaction.
+Technologies Used:
+
+Next.js for frontend and routing.
+Chatbot integration for conversational AI.
+Custom NLP and content extraction systems for webpage analysis.
+Upstash Redis for backend data storage.
+Various React libraries like AI for enhanced user experience.
+Instructions for Setup:
+
+Clone the repository:
+
+git clone <repository-url>
+Install the dependencies:
+
+npm install
+Run the development server:
+
+npm run dev
+Navigate to http://localhost:3005/<website-url> to interact with the chatbot.
